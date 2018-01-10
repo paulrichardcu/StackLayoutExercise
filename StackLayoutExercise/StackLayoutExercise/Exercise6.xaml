@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StackLayoutExercise.Exercise6">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Image Aspect="AspectFill" Source="http://lorempixel.com/1920/1080/nature/7" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"></Image>
+            <Label HorizontalTextAlignment="Center" FontSize="30" AbsoluteLayout.LayoutBounds="0,0,1,.2" AbsoluteLayout.LayoutFlags="All">Relax</Label>
+            <StackLayout AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0.8,1,.2" Orientation="Horizontal">
+                <Label Text="Profile"></Label>
+                <Label Text="Mediate"></Label>
+                <Label Text="Themes"></Label>
+            </StackLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
